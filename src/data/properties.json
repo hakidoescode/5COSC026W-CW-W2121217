@@ -1,0 +1,153 @@
+{
+  "properties": [
+    {
+      "id": "prop1",
+      "type": "house",
+      "bedrooms": 3,
+      "price": 750000,
+      "postcodeArea": "BR5",
+      "dateAdded": "2022-10-12",
+      "shortDescription": "Attractive three bedroom semi-detached family home",
+      "longDescription": "Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior.",
+      "locationLabel": "Petts Wood, Orpington",
+      "images": [
+        "https://via.placeholder.com/800x600/4A90E2/ffffff?text=Property+1+Photo+1",
+        "https://via.placeholder.com/800x600/5BA3F5/ffffff?text=Property+1+Photo+2",
+        "https://via.placeholder.com/800x600/6CB6FF/ffffff?text=Property+1+Photo+3",
+        "https://via.placeholder.com/800x600/7DC9FF/ffffff?text=Property+1+Photo+4",
+        "https://via.placeholder.com/800x600/8EDCFF/ffffff?text=Property+1+Photo+5",
+        "https://via.placeholder.com/800x600/9FEFFF/ffffff?text=Property+1+Photo+6"
+      ],
+      "floorPlanImage": "https://via.placeholder.com/1200x800/E8E8E8/333333?text=Floor+Plan+Property+1",
+      "mapEmbedUrl": "https://www.google.com/maps?q=BR5+Petts+Wood&output=embed"
+    },
+    {
+      "id": "prop2",
+      "type": "flat",
+      "bedrooms": 2,
+      "price": 399995,
+      "postcodeArea": "BR6",
+      "dateAdded": "2022-09-14",
+      "shortDescription": "Modern two bedroom garden flat in excellent condition",
+      "longDescription": "Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms. This apartment being only five years old, is still under a 10 year building guarantee.",
+      "locationLabel": "Crofton Road, Orpington",
+      "images": [
+        "https://via.placeholder.com/800x600/E91E63/ffffff?text=Property+2+Photo+1",
+        "https://via.placeholder.com/800x600/F06292/ffffff?text=Property+2+Photo+2",
+        "https://via.placeholder.com/800x600/F48FB1/ffffff?text=Property+2+Photo+3",
+        "https://via.placeholder.com/800x600/F8BBD0/ffffff?text=Property+2+Photo+4",
+        "https://via.placeholder.com/800x600/FCE4EC/333333?text=Property+2+Photo+5",
+        "https://via.placeholder.com/800x600/FF80AB/ffffff?text=Property+2+Photo+6"
+      ],
+      "floorPlanImage": "https://via.placeholder.com/1200x800/E8E8E8/333333?text=Floor+Plan+Property+2",
+      "mapEmbedUrl": "https://www.google.com/maps?q=BR6+Orpington&output=embed"
+    },
+    {
+      "id": "prop3",
+      "type": "flat",
+      "bedrooms": 1,
+      "price": 275000,
+      "postcodeArea": "SE1",
+      "dateAdded": "2024-06-15",
+      "shortDescription": "Stylish one bedroom apartment near London Bridge",
+      "longDescription": "A beautifully presented one bedroom apartment located in the heart of SE1, just moments from London Bridge station. This modern flat features an open-plan kitchen/living area with contemporary fittings, a spacious double bedroom with built-in wardrobes, and a sleek bathroom suite. The property benefits from excellent transport links, being within walking distance of Borough Market, the Thames riverside, and numerous restaurants and bars. Perfect for a first-time buyer or investor.",
+      "locationLabel": "London Bridge, SE1",
+      "images": [
+        "https://via.placeholder.com/800x600/9C27B0/ffffff?text=Property+3+Photo+1",
+        "https://via.placeholder.com/800x600/AB47BC/ffffff?text=Property+3+Photo+2",
+        "https://via.placeholder.com/800x600/BA68C8/ffffff?text=Property+3+Photo+3",
+        "https://via.placeholder.com/800x600/CE93D8/ffffff?text=Property+3+Photo+4",
+        "https://via.placeholder.com/800x600/E1BEE7/333333?text=Property+3+Photo+5",
+        "https://via.placeholder.com/800x600/F3E5F5/333333?text=Property+3+Photo+6"
+      ],
+      "floorPlanImage": "https://via.placeholder.com/1200x800/E8E8E8/333333?text=Floor+Plan+Property+3",
+      "mapEmbedUrl": "https://www.google.com/maps?q=SE1+London+Bridge&output=embed"
+    },
+    {
+      "id": "prop4",
+      "type": "house",
+      "bedrooms": 4,
+      "price": 895000,
+      "postcodeArea": "NW1",
+      "dateAdded": "2024-09-20",
+      "shortDescription": "Spacious four bedroom Victorian terrace in Camden",
+      "longDescription": "An impressive four bedroom Victorian terrace house situated in a sought-after Camden location. This characterful home features high ceilings, original period features, and a bright and spacious layout across three floors. The ground floor comprises a large reception room, separate dining room, and a modern fitted kitchen with French doors leading to a private garden. Upstairs you'll find four well-proportioned bedrooms and two bathrooms. The property also benefits from a loft conversion providing additional living space. Close to Camden Town station and local amenities.",
+      "locationLabel": "Camden, NW1",
+      "images": [
+        "https://via.placeholder.com/800x600/FF5722/ffffff?text=Property+4+Photo+1",
+        "https://via.placeholder.com/800x600/FF6F42/ffffff?text=Property+4+Photo+2",
+        "https://via.placeholder.com/800x600/FF8A65/ffffff?text=Property+4+Photo+3",
+        "https://via.placeholder.com/800x600/FFAB91/ffffff?text=Property+4+Photo+4",
+        "https://via.placeholder.com/800x600/FFCCBC/333333?text=Property+4+Photo+5",
+        "https://via.placeholder.com/800x600/FBE9E7/333333?text=Property+4+Photo+6",
+        "https://via.placeholder.com/800x600/FF7043/ffffff?text=Property+4+Photo+7",
+        "https://via.placeholder.com/800x600/FF9E80/ffffff?text=Property+4+Photo+8"
+      ],
+      "floorPlanImage": "https://via.placeholder.com/1200x800/E8E8E8/333333?text=Floor+Plan+Property+4",
+      "mapEmbedUrl": "https://www.google.com/maps?q=NW1+Camden&output=embed"
+    },
+    {
+      "id": "prop5",
+      "type": "house",
+      "bedrooms": 5,
+      "price": 1200000,
+      "postcodeArea": "SW19",
+      "dateAdded": "2025-01-05",
+      "shortDescription": "Stunning five bedroom detached house in Wimbledon",
+      "longDescription": "A magnificent five bedroom detached family home located in the prestigious Wimbledon area. This substantial property offers generous accommodation arranged over three floors, including a grand entrance hall, two large reception rooms, a state-of-the-art kitchen/breakfast room, and a separate utility room. The first floor hosts four double bedrooms, including a master suite with en-suite bathroom, while the top floor features a fifth bedroom and home office. Outside, the property boasts a beautifully landscaped south-facing garden, driveway parking for multiple vehicles, and an integral garage. Within easy reach of Wimbledon Village and the Common.",
+      "locationLabel": "Wimbledon, SW19",
+      "images": [
+        "https://via.placeholder.com/800x600/4CAF50/ffffff?text=Property+5+Photo+1",
+        "https://via.placeholder.com/800x600/66BB6A/ffffff?text=Property+5+Photo+2",
+        "https://via.placeholder.com/800x600/81C784/ffffff?text=Property+5+Photo+3",
+        "https://via.placeholder.com/800x600/A5D6A7/333333?text=Property+5+Photo+4",
+        "https://via.placeholder.com/800x600/C8E6C9/333333?text=Property+5+Photo+5",
+        "https://via.placeholder.com/800x600/E8F5E9/333333?text=Property+5+Photo+6"
+      ],
+      "floorPlanImage": "https://via.placeholder.com/1200x800/E8E8E8/333333?text=Floor+Plan+Property+5",
+      "mapEmbedUrl": "https://www.google.com/maps?q=SW19+Wimbledon&output=embed"
+    },
+    {
+      "id": "prop6",
+      "type": "flat",
+      "bedrooms": 2,
+      "price": 525000,
+      "postcodeArea": "NW1",
+      "dateAdded": "2024-11-08",
+      "shortDescription": "Contemporary two bedroom apartment with balcony",
+      "longDescription": "A superb two bedroom apartment in a modern development in King's Cross. This stylish flat features an open-plan living area with floor-to-ceiling windows, a sleek fitted kitchen with integrated appliances, two good-sized bedrooms, and a contemporary bathroom. The property also benefits from a private balcony with views across the city, underfloor heating, and secure underground parking. The development offers 24-hour concierge service and is just minutes from King's Cross and St Pancras International stations, making it ideal for commuters and those seeking city living.",
+      "locationLabel": "King's Cross, NW1",
+      "images": [
+        "https://via.placeholder.com/800x600/00BCD4/ffffff?text=Property+6+Photo+1",
+        "https://via.placeholder.com/800x600/26C6DA/ffffff?text=Property+6+Photo+2",
+        "https://via.placeholder.com/800x600/4DD0E1/ffffff?text=Property+6+Photo+3",
+        "https://via.placeholder.com/800x600/80DEEA/333333?text=Property+6+Photo+4",
+        "https://via.placeholder.com/800x600/B2EBF2/333333?text=Property+6+Photo+5",
+        "https://via.placeholder.com/800x600/E0F7FA/333333?text=Property+6+Photo+6"
+      ],
+      "floorPlanImage": "https://via.placeholder.com/1200x800/E8E8E8/333333?text=Floor+Plan+Property+6",
+      "mapEmbedUrl": "https://www.google.com/maps?q=NW1+King%27s+Cross&output=embed"
+    },
+    {
+      "id": "prop7",
+      "type": "house",
+      "bedrooms": 3,
+      "price": 485000,
+      "postcodeArea": "SE1",
+      "dateAdded": "2024-12-12",
+      "shortDescription": "Charming three bedroom terraced house near Elephant and Castle",
+      "longDescription": "A delightful three bedroom terraced house situated in a quiet residential street close to Elephant and Castle. The property features a bright living room, modern kitchen/diner with access to a rear garden, and a ground floor WC. Upstairs are three well-proportioned bedrooms and a family bathroom with shower over bath. The property has been recently refurbished throughout and benefits from double glazing and gas central heating. The location offers excellent transport connections via the Northern and Bakerloo lines, as well as numerous local amenities, shops, and restaurants.",
+      "locationLabel": "Elephant and Castle, SE1",
+      "images": [
+        "https://via.placeholder.com/800x600/FFC107/333333?text=Property+7+Photo+1",
+        "https://via.placeholder.com/800x600/FFCA28/333333?text=Property+7+Photo+2",
+        "https://via.placeholder.com/800x600/FFD54F/333333?text=Property+7+Photo+3",
+        "https://via.placeholder.com/800x600/FFE082/333333?text=Property+7+Photo+4",
+        "https://via.placeholder.com/800x600/FFECB3/333333?text=Property+7+Photo+5",
+        "https://via.placeholder.com/800x600/FFF8E1/333333?text=Property+7+Photo+6"
+      ],
+      "floorPlanImage": "https://via.placeholder.com/1200x800/E8E8E8/333333?text=Floor+Plan+Property+7",
+      "mapEmbedUrl": "https://www.google.com/maps?q=SE1+Elephant+and+Castle&output=embed"
+    }
+  ]
+}
