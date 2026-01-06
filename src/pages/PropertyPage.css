@@ -5,17 +5,23 @@
 }
 
 .back-btn {
-  background: white;
-  border: 1px solid #ddd;
-  padding: 0.75rem 1.5rem;
-  margin-bottom: 1.5rem;
-  border-radius: 4px;
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  padding: var(--space-md) var(--space-xl);
+  margin-bottom: var(--space-xl);
+  border-radius: var(--radius-sm);
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background-color 0.2s ease;
+  font-weight: 600;
+  font-size: var(--text-base);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-sm);
 }
 
 .back-btn:hover {
-  background: #f5f5f5;
+  background: var(--color-primary-hover);
 }
 
 .gallery-section {
@@ -27,8 +33,9 @@
   width: 100%;
   height: 500px;
   margin-bottom: 1rem;
-  border-radius: 8px;
+  border-radius: var(--radius-lg);
   overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
 }
 
 .main-image img {
@@ -45,10 +52,15 @@
   background: white;
   border: none;
   padding: 0.75rem 1.5rem;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
   font-weight: 600;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s ease;
+}
+
+.view-all-btn:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .thumbnails {
@@ -61,20 +73,20 @@
   width: 100%;
   height: 100px;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
-  transition: transform 0.2s ease;
+  transition: opacity 0.2s ease;
 }
 
 .thumbnails img:hover {
-  transform: scale(1.05);
+  opacity: 0.8;
 }
 
 .property-info {
   background: white;
   padding: 2rem;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.08);
 }
 
 .property-header {
@@ -83,40 +95,58 @@
   align-items: flex-start;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid var(--color-neutral-200);
 }
 
 .property-details {
-  font-size: 1.2rem;
-  color: #666;
+  font-size: var(--text-lg);
+  color: var(--color-neutral-600);
   margin: 0.5rem 0;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: var(--text-sm);
 }
 
 .location {
-  color: #888;
-  font-size: 1rem;
+  color: var(--color-neutral-500);
+  font-size: var(--text-base);
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.location::before {
+  content: "📍";
+  font-size: 0.9rem;
 }
 
 .favourite-btn-large {
-  background: #007bff;
+  background: var(--color-primary);
   color: white;
   border: none;
   padding: 1rem 2rem;
-  border-radius: 4px;
-  font-size: 1.1rem;
+  border-radius: var(--radius-sm);
+  font-size: var(--text-lg);
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
 }
 
 .favourite-btn-large.active {
-  background: #FFD700;
-  color: #333;
+  background: var(--color-accent);
+  color: var(--color-neutral-900);
 }
 
 .favourite-btn-large:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background: var(--color-primary-hover);
+}
+
+.favourite-btn-large.active:hover {
+  background: #d97706;
 }
 
 /* Tabs */
@@ -127,7 +157,7 @@
 .tab-buttons {
   display: flex;
   gap: 0.5rem;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid var(--color-neutral-200);
   margin-bottom: 1.5rem;
 }
 
@@ -136,20 +166,23 @@
   border: none;
   border-bottom: 3px solid transparent;
   padding: 1rem 1.5rem;
-  font-size: 1rem;
+  font-size: var(--text-base);
   cursor: pointer;
-  transition: all 0.3s ease;
-  color: #666;
+  transition: color 0.2s ease, border-color 0.2s ease;
+  color: var(--color-neutral-600);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size: var(--text-sm);
 }
 
 .tab-buttons button:hover {
-  color: #007bff;
+  color: var(--color-primary);
 }
 
 .tab-buttons button.active {
-  color: #007bff;
-  border-bottom-color: #007bff;
-  font-weight: 600;
+  color: var(--color-primary);
+  border-bottom-color: var(--color-primary);
 }
 
 .tab-panel {
@@ -158,17 +191,18 @@
 
 .tab-panel h3 {
   margin-bottom: 1rem;
-  color: #333;
+  color: var(--color-neutral-900);
+  font-weight: 600;
 }
 
 .tab-panel p {
   line-height: 1.8;
-  color: #555;
+  color: var(--color-neutral-700);
 }
 
 .floorplan-img {
   max-width: 100%;
-  border-radius: 8px;
+  border-radius: var(--radius-lg);
 }
 
 /* Lightbox */
