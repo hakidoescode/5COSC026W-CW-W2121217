@@ -23,8 +23,12 @@ function SearchPage() {
     <div className="search-page">
       <div className="container">
         <header className="page-header">
-          <h1>Property Search</h1>
-          <p>Find your perfect home from our selection of properties</p>
+          <div className="header-overlay"></div>
+          <div className="header-content">
+            <div className="brand-name">Haven Properties</div>
+            <h1>Find Your Perfect Home</h1>
+            <p>Browse our curated collection of houses and flats across London</p>
+          </div>
         </header>
 
         <SearchForm onSearch={handleSearch} postcodeAreas={postcodeAreas} />

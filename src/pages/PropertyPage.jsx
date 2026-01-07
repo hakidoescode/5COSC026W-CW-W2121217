@@ -50,6 +50,12 @@ function PropertyPage() {
     setLightboxIndex((prev) => (prev - 1 + property.images.length) % property.images.length);
   };
 
+  const formatDate = (dateString) => {
+    const date = new Date(dateString);
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return date.toLocaleDateString('en-GB', options);
+  };
+
   if (!property) {
     return (
       <div className="container">
@@ -100,6 +106,7 @@ function PropertyPage() {
                 {property.bedrooms} Bedroom {property.type.charAt(0).toUpperCase() + property.type.slice(1)}
               </p>
               <p className="location">{property.locationLabel} · {property.postcodeArea}</p>
+              <p className="date-added">Added {formatDate(property.dateAdded)}</p>
             </div>
             <button
               className={`favourite-btn-large ${favourite ? 'active' : ''}`}
