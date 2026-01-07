@@ -14,20 +14,25 @@ function PropertyPage() {
   const [lightboxIndex, setLightboxIndex] = useState(0);
 
   useEffect(() => {
-    // Find the property by ID
-    const foundProperty = propertiesData.properties.find(p => p.id === id);
+    // Find property by reference number or old ID format
+    const foundProperty = propertiesData.properties.find(p =>
+      p.refNumber === id || p.id === id
+    );
+
     if (foundProperty) {
       setProperty(foundProperty);
-      setFavourite(isFavourite(id));
+      setFavourite(isFavourite(foundProperty.id));
     }
   }, [id]);
 
   const handleFavouriteClick = () => {
+    if (!property) return;
+
     if (favourite) {
-      removeFavourite(id);
+      removeFavourite(property.id);
       setFavourite(false);
     } else {
-      addFavourite(id);
+      addFavourite(property.id);
       setFavourite(true);
     }
     window.dispatchEvent(new Event('favouritesChanged'));
@@ -101,6 +106,7 @@ function PropertyPage() {
         <div className="property-info">
           <div className="property-header">
             <div>
+              <p className="ref-number">Property #{property.refNumber}</p>
               <h1 className="price">£{property.price.toLocaleString()}</h1>
               <p className="property-details">
                 {property.bedrooms} Bedroom {property.type.charAt(0).toUpperCase() + property.type.slice(1)}

@@ -2,6 +2,7 @@
   "properties": [
     {
       "id": "prop1",
+      "refNumber": "1",
       "type": "house",
       "bedrooms": 3,
       "price": 750000,
@@ -23,6 +24,7 @@
     },
     {
       "id": "prop2",
+      "refNumber": "2",
       "type": "flat",
       "bedrooms": 2,
       "price": 399995,
@@ -44,6 +46,7 @@
     },
     {
       "id": "prop3",
+      "refNumber": "3",
       "type": "flat",
       "bedrooms": 1,
       "price": 275000,
@@ -65,6 +68,7 @@
     },
     {
       "id": "prop4",
+      "refNumber": "4",
       "type": "house",
       "bedrooms": 4,
       "price": 895000,
@@ -88,6 +92,7 @@
     },
     {
       "id": "prop5",
+      "refNumber": "5",
       "type": "house",
       "bedrooms": 5,
       "price": 1200000,
@@ -109,6 +114,7 @@
     },
     {
       "id": "prop6",
+      "refNumber": "6",
       "type": "flat",
       "bedrooms": 2,
       "price": 525000,
@@ -130,6 +136,7 @@
     },
     {
       "id": "prop7",
+      "refNumber": "7",
       "type": "house",
       "bedrooms": 3,
       "price": 485000,

@@ -62,7 +62,7 @@ function FavouritesSidebar({ allProperties }) {
                 <div className="favourite-info">
                   <p className="favourite-price">£{property.price.toLocaleString()}</p>
                   <p className="favourite-location">{property.locationLabel}</p>
-                  <Link to={`/property/${property.id}`} className="favourite-link">
+                  <Link to={`/property/${property.refNumber}`} className="favourite-link">
                     View Details
                   </Link>
                 </div>

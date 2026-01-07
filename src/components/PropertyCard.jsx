@@ -27,6 +27,13 @@ function PropertyCard({ property }) {
     window.dispatchEvent(new Event('favouritesChanged'));
   };
 
+  // Format date for display
+  const formatDate = (dateString) => {
+    const date = new Date(dateString);
+    const options = { day: 'numeric', month: 'short', year: 'numeric' };
+    return date.toLocaleDateString('en-GB', options);
+  };
+
   return (
     <div className="property-card card">
       <div className="card-image">
@@ -47,8 +54,9 @@ function PropertyCard({ property }) {
         </p>
         <p className="description">{property.shortDescription}</p>
         <p className="location">{property.locationLabel} · {property.postcodeArea}</p>
+        <p className="card-date">Added {formatDate(property.dateAdded)}</p>
 
-        <Link to={`/property/${property.id}`} className="btn-primary view-btn">
+        <Link to={`/property/${property.refNumber}`} className="btn-primary view-btn">
           View Property
         </Link>
       </div>

@@ -98,6 +98,15 @@
   border-bottom: 2px solid var(--color-neutral-200);
 }
 
+.ref-number {
+  font-size: var(--text-sm);
+  color: var(--color-primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
 .property-details {
   font-size: var(--text-lg);
   color: var(--color-neutral-600);
